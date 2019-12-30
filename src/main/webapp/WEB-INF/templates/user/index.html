@@ -336,8 +336,8 @@
                     </div>
                     <br/>
                     <br/><br/>
-                    <div class="with:80%">
-                        <table class="table table-hover">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
                             <thead>
                             <tr>
                                 <th>序号</th>
@@ -357,6 +357,30 @@
                                 <td>##</td>
                                 <td>##</td>
                             </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>cxz</td>
+                                <td>***</td>
+                                <td>22</td>
+                                <td>##</td>
+                                <td>##</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>lpf</td>
+                                <td>***</td>
+                                <td>20</td>
+                                <td>##</td>
+                                <td>##</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>cgh</td>
+                                <td>***</td>
+                                <td>19</td>
+                                <td>##</td>
+                                <td>##</td>
+                            </tr>
                             <tr  th:each="user : ${users}">
                                 <th scope="row" th:text="${user.id}">1</th>
                                 <td th:text="${user.name}">pancm</td>
@@ -372,76 +396,76 @@
                 </div>
                 <!-- /. ROW  -->
 
-                <div class="row">
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="board">
-                        <div class="panel panel-primary">
-						<div class="number">
-							<h3>
-								<h3>44,023</h3>
-								<small>培训人数</small>
-							</h3>
-						</div>
-						<div class="icon">
-						   <i class="fa fa-eye fa-5x red"></i>
-						</div>
+<!--                <div class="row">-->
+<!--                    <div class="col-md-3 col-sm-12 col-xs-12">-->
+<!--					<div class="board">-->
+<!--                        <div class="panel panel-primary">-->
+<!--						<div class="number">-->
+<!--							<h3>-->
+<!--								<h3>44,023</h3>-->
+<!--								<small>培训人数</small>-->
+<!--							</h3>-->
+<!--						</div>-->
+<!--						<div class="icon">-->
+<!--						   <i class="fa fa-eye fa-5x red"></i>-->
+<!--						</div>-->
 
-                        </div>
-						</div>
-                    </div>
+<!--                        </div>-->
+<!--						</div>-->
+<!--                    </div>-->
 
-					       <div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="board">
-                        <div class="panel panel-primary">
-						<div class="number">
-							<h3>
-								<h3>32,850</h3>
-								<small>培训场次</small>
-							</h3>
-						</div>
-						<div class="icon">
-						   <i class="fa fa-shopping-cart fa-5x blue"></i>
-						</div>
+<!--					       <div class="col-md-3 col-sm-12 col-xs-12">-->
+<!--					<div class="board">-->
+<!--                        <div class="panel panel-primary">-->
+<!--						<div class="number">-->
+<!--							<h3>-->
+<!--								<h3>32,850</h3>-->
+<!--								<small>培训场次</small>-->
+<!--							</h3>-->
+<!--						</div>-->
+<!--						<div class="icon">-->
+<!--						   <i class="fa fa-shopping-cart fa-5x blue"></i>-->
+<!--						</div>-->
 
-                        </div>
-						</div>
-                    </div>
+<!--                        </div>-->
+<!--						</div>-->
+<!--                    </div>-->
 
-					       <div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="board">
-                        <div class="panel panel-primary">
-						<div class="number">
-							<h3>
-								<h3>56,150</h3>
-								<small>项目培训</small>
-							</h3>
-						</div>
-						<div class="icon">
-						   <i class="fa fa-comments fa-5x green"></i>
-						</div>
+<!--					       <div class="col-md-3 col-sm-12 col-xs-12">-->
+<!--					<div class="board">-->
+<!--                        <div class="panel panel-primary">-->
+<!--						<div class="number">-->
+<!--							<h3>-->
+<!--								<h3>56,150</h3>-->
+<!--								<small>项目培训</small>-->
+<!--							</h3>-->
+<!--						</div>-->
+<!--						<div class="icon">-->
+<!--						   <i class="fa fa-comments fa-5x green"></i>-->
+<!--						</div>-->
 
-                        </div>
-						</div>
-                    </div>
+<!--                        </div>-->
+<!--						</div>-->
+<!--                    </div>-->
 
-					       <div class="col-md-3 col-sm-12 col-xs-12">
-					<div class="board">
-                        <div class="panel panel-primary">
-						<div class="number">
-							<h3>
-								<h3>89,645</h3>
-								<small>伙伴培训</small>
-							</h3>
-						</div>
-						<div class="icon">
-						   <i class="fa fa-user fa-5x yellow"></i>
-						</div>
+<!--					       <div class="col-md-3 col-sm-12 col-xs-12">-->
+<!--					<div class="board">-->
+<!--                        <div class="panel panel-primary">-->
+<!--						<div class="number">-->
+<!--							<h3>-->
+<!--								<h3>89,645</h3>-->
+<!--								<small>伙伴培训</small>-->
+<!--							</h3>-->
+<!--						</div>-->
+<!--						<div class="icon">-->
+<!--						   <i class="fa fa-user fa-5x yellow"></i>-->
+<!--						</div>-->
 
-                        </div>
-						</div>
-                    </div>
+<!--                        </div>-->
+<!--						</div>-->
+<!--                    </div>-->
 
-                </div>
+<!--                </div>-->
 <!--				     <div class="row">-->
 <!--                        <div class="col-sm-6 col-xs-12">-->
 <!--                            <div class="panel panel-default chartJs">-->
@@ -508,7 +532,7 @@
 			</div>
 		</div><!--/.row-->
 
-			<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+			<div class="copyrights">收集自<a href="#" >用友云平台</a></div>
 
 				<div class="row">
 				<div class="col-md-5">
@@ -572,117 +596,117 @@
 
 
 
-                <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Tasks Panel
-                            </div>
-                            <div class="panel-body">
-                                <div class="list-group">
+<!--                <div class="row">-->
+<!--                    <div class="col-md-4 col-sm-12 col-xs-12">-->
+<!--                        <div class="panel panel-default">-->
+<!--                            <div class="panel-heading">-->
+<!--                                Tasks Panel-->
+<!--                            </div>-->
+<!--                            <div class="panel-body">-->
+<!--                                <div class="list-group">-->
 
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">7 minutes ago</span>
-                                        <i class="fa fa-fw fa-comment"></i> Commented on a post
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">16 minutes ago</span>
-                                        <i class="fa fa-fw fa-truck"></i> Order 392 shipped
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">36 minutes ago</span>
-                                        <i class="fa fa-fw fa-globe"></i> Invoice 653 has paid
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">1 hour ago</span>
-                                        <i class="fa fa-fw fa-user"></i> A new user has been added
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">1.23 hour ago</span>
-                                        <i class="fa fa-fw fa-user"></i> A new user has added
-                                    </a>
-                                    <a href="#" class="list-group-item">
-                                        <span class="badge">yesterday</span>
-                                        <i class="fa fa-fw fa-globe"></i> Saved the world
-                                    </a>
-                                </div>
-                                <div class="text-right">
-                                    <a href="#">More Tasks <i class="fa fa-arrow-circle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">7 minutes ago</span>-->
+<!--                                        <i class="fa fa-fw fa-comment"></i> Commented on a post-->
+<!--                                    </a>-->
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">16 minutes ago</span>-->
+<!--                                        <i class="fa fa-fw fa-truck"></i> Order 392 shipped-->
+<!--                                    </a>-->
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">36 minutes ago</span>-->
+<!--                                        <i class="fa fa-fw fa-globe"></i> Invoice 653 has paid-->
+<!--                                    </a>-->
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">1 hour ago</span>-->
+<!--                                        <i class="fa fa-fw fa-user"></i> A new user has been added-->
+<!--                                    </a>-->
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">1.23 hour ago</span>-->
+<!--                                        <i class="fa fa-fw fa-user"></i> A new user has added-->
+<!--                                    </a>-->
+<!--                                    <a href="#" class="list-group-item">-->
+<!--                                        <span class="badge">yesterday</span>-->
+<!--                                        <i class="fa fa-fw fa-globe"></i> Saved the world-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                <div class="text-right">-->
+<!--                                    <a href="#">More Tasks <i class="fa fa-arrow-circle-right"></i></a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
 
-                    </div>
-                    <div class="col-md-8 col-sm-12 col-xs-12">
+<!--                    </div>-->
+<!--&lt;!&ndash;                    <div class="col-md-8 col-sm-12 col-xs-12">&ndash;&gt;-->
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Responsive Table Example
-                            </div>
-                            <div class="panel-body">
-                                <div class="table-responsive">
-                                    <table class="table table-striped table-bordered table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th>S No.</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>User Name</th>
-                                                <th>Email ID.</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>John</td>
-                                                <td>Doe</td>
-                                                <td>John15482</td>
-                                                <td>name@site.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Kimsila</td>
-                                                <td>Marriye</td>
-                                                <td>Kim1425</td>
-                                                <td>name@site.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Rossye</td>
-                                                <td>Nermal</td>
-                                                <td>Rossy1245</td>
-                                                <td>name@site.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Richard</td>
-                                                <td>Orieal</td>
-                                                <td>Rich5685</td>
-                                                <td>name@site.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Jacob</td>
-                                                <td>Hielsar</td>
-                                                <td>Jac4587</td>
-                                                <td>name@site.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Wrapel</td>
-                                                <td>Dere</td>
-                                                <td>Wrap4585</td>
-                                                <td>name@site.com</td>
-                                            </tr>
+<!--&lt;!&ndash;                        <div class="panel panel-default">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="panel-heading">&ndash;&gt;-->
+<!--&lt;!&ndash;                                Responsive Table Example&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <div class="panel-body">&ndash;&gt;-->
+<!--&lt;!&ndash;                                <div class="table-responsive">&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <table class="table table-striped table-bordered table-hover">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <thead>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <th>S No.</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <th>First Name</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <th>Last Name</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <th>User Name</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <th>Email ID.</th>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </thead>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <tbody>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>1</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>John</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Doe</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>John15482</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>2</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Kimsila</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Marriye</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Kim1425</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>3</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Rossye</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Nermal</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Rossy1245</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>4</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Richard</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Orieal</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Rich5685</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>5</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Jacob</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Hielsar</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Jac4587</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>6</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Wrapel</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Dere</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>Wrap4585</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>name@site.com</td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
 
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+<!--&lt;!&ndash;                                        </tbody>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </table>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
 
-                    </div>
-                </div>
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
                 <!-- /. ROW  -->
 
 
