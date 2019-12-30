@@ -1,0 +1,19 @@
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    cache: false
+  mvc:
+    static-path-pattern: /static/**
+    resources:
+      chain:
+        strategy:
+          content:
+            enabled: true
+            paths: /**
+server:
+  port: 8091
+logging:
+  level: debug

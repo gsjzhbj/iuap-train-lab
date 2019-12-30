@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>jsp-thymeleaf</artifactId>
+    <artifactId>iuap-train-lab</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>jsp-thymeleaf</name>
-    <description>jsp and thymeleaf commix</description>
+    <name>iuap-train-lab</name>
+    <description>技术运营实验室</description>
 
     <properties>
         <java.version>1.8</java.version>
